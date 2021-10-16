@@ -1,0 +1,108 @@
+ 
+<html>
+  <head>
+    <title>Hand Gesture Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+
+  <div class="container">
+ 
+    <center>
+      <div id="up">
+<div>
+  <img id="handImg" src="hand gesture.jpg">
+   <h3 id="heading" class="btn btn-success heading"><u>Hand Gesture Web App</u>
+      <br>
+      <span id="em_1">| &#9995; |</span>
+      <span id="em_2">&#128076; |</span>
+      <span id="em_3">&#128077; |</span>
+      <span id="em_4">&#9994; |</span>
+      <span id="em_5">&#128070; |</span>
+</h3></div>
+      
+      
+<div id="instructions">
+  <p id="ins_h"><u>Instructions:</u></p>
+<label id="ins_lbl">Click a picture making a hand gesture to know what it means.
+        </label><br>
+        <b style="color: rgb(24, 90, 15);font-size: 17px;">Our model is trained on the following Hand Gestures:-</b>
+    
+              <br>
+              <div>
+      <span id="emoji_with_name">
+              <span> &#128591; </span>
+              <span> &#9995; </span>
+              <span> &#128076; </span>
+              <span> &#128077; </span>
+              <span> &#128078; </span>
+              <span> &#9994; </span>
+      
+              <br>
+              <label>(Hello/Namaste)</label>
+              <label>(High-five/bye)</label>
+              <label>(Superb)</label>
+              <label>(Yes)</label>
+              <label>(No)</label>
+              <label>(Horrible)</label>
+      </div>
+        </span>
+
+        </div>
+      </p>
+      </div>
+
+
+      
+      <div id="hr"> <hr><hr></div>
+   <br><br>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label id="webcamView">Webcam View : </label>
+        <div id="camera"></div>
+
+        <br><br>
+        <div id="photo_cam_div" onclick="take_photo()" class="btn">
+        <img id="camera_img" class="btn" src="camera.png" onclick="take_photo()">
+<button id="photo_btn" class="btn btn-danger" onclick="take_photo()">Click a photo</button>
+</div>
+      </div>
+
+     
+
+
+
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12" id="Identify_div">
+	      <label id="Snap">Snapshot : </label>
+        <div id="result"></div>
+
+
+
+        <br><br>
+        <div id="photo_cam_div" onclick="identify()" class="btn">
+<button class="btn btn-warning" onclick="identify()">Identify the emotion</button>
+<img id="HG_Emoji_img" class="btn" src="HG Emojis.jpg" onclick="identify()">
+</div>
+      </div>
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

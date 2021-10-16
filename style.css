@@ -1,0 +1,167 @@
+html{
+  border-radius:17px;
+  border-style:solid;
+  border-width:20px;
+  border-color:rgb(255, 238, 0);
+}
+
+
+
+
+
+body
+{
+  color: white;
+  background-color: beige;
+  border-radius:100px;
+  border-style:dotted;
+  border-color: rgb(133, 27, 194);
+  border-width: 10px;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+
+
+#heading{
+  font-size:25;
+  font-weight:bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right:300px;
+  margin-left:100px;
+  border-top-left-radius: 50px;
+ 
+  border-top-right-radius: 50px;
+ 
+ padding-bottom:10px;
+ width:500px;
+ border-style:solid;
+ border-color: black;
+ border-width: 2px;
+ 
+ 
+  
+
+
+
+}
+
+label{
+  font-size:10px;
+  font-family: 'Franklin Gothic Medium';
+}
+
+#emoji_with_name{
+  color:black;
+  background:linear-gradient(  rgb(113, 205, 248), 20%, rgb(139, 247, 135) );
+  border-style:solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#Identify_div{
+  margin-left:350px;
+}
+
+#handImg{
+width:200px;
+height:200px;
+  transform: rotate(45deg);
+  float:left;
+  margin-top:40px;
+}
+
+p , #HandGest{
+margin-right:250px;
+}
+
+#camera_img{
+  width:100px;
+  height:100px;
+}
+
+#instructions{
+  background:repeating-linear-gradient(  rgb(208, 169, 253), 20%, rgb(255, 193, 229) );
+  font-size: large;
+  color:black;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width:500px;
+  height:210px;
+  
+  border-style:solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#ins_lbl{
+  font-size:18px;
+  font-family:cursive;
+}
+ #ins_h{
+  font-size:23px;
+  font-family:cursive;
+ }
+
+ #HG_Emoji_img{
+   width:90px;
+   height:70px;
+
+ }
+
+ #Snap{
+   font-size:25px;
+   font-family:fantasy;
+   color:black;
+   
+ }
+
+ #webcamView{
+  
+    font-size:25px;
+    font-family:fantasy;
+    color:black;
+  
+ }
+
+ #hr{
+   
+  background-color:rgb(23, 143, 241);
+  height:10px;
+  width:1150px;
+  border-radius: 150px;
+  
+ }
+
+ .container
+{
+  background-color: beige;
+}
+
+#up{
+  background-color: rgb(255, 212, 131);
+ border-radius: 100px;
+  border-color: white;
+  border-width: 5px;
+  border-style: dashed;
+}
+
+#photo_cam_div{
+  border-width: 2px;
+  border-style: ridge;
+  border-color:black;
+  background-color: rgb(214, 202, 202);
+  height:100px;
+
+}
+#photo_cam_div:hover{
+  background-color: rgb(170, 160, 160);
+}
